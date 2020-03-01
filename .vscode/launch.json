@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible sttributes.
+    // Hover to view descriptions of existing attributes.
+    
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "request": "launch",
+            "type": "cortex-debug",
+            "name": "Cortex Debug Main",
+            "cwd": "${workspaceRoot}",
+            "executable": "${workspaceRoot}/BUILD/BLUEPILL_F103C8/GCC_ARM-RELEASE/RFKeyPad.elf",
+            "serverpath": "/Applications/SEGGER/JLink_V662a/JLinkGDBServerCLExe",
+            "servertype": "jlink",
+            "device": "STM32F103C8",
+            "interface": "swd",
+            "runToMain": true,
+            "preLaunchTask": null,
+            "svdFile": "${workspaceRoot}/STM32F103.svd"
+        }
+    ]
+}
